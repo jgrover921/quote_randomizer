@@ -1,13 +1,41 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
+-webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(./Images/balloons-washed.jpg);
+  background-size: cover;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#title{
+  margin-top: 3%;
+  font-size: 64px;
+  font-family: Gabriola;
+  text-shadow: 2px 1px 5px whitesmoke;
+
+}
+#text{
+  text-shadow:-2px -1px 5px #3b5235;
+  color: whitesmoke;
+  font-size: 26px;
+}
+#author{
+  font-family: Gabriola;
+  font-size: 26px;
+  color: #3b5235;
+  text-shadow: -1px -1px black;
+}
+#tweet-quote{
+  color: #3b5235;
+  font-size: 24px;
+  font-family: Gabriola;
+}
+#tweet-quote:visited{
+  color:#3b5235;
+}
+#new-quote{
+  background-color: lightgrey;
+  color: #3b5235;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight:bold;
 }
